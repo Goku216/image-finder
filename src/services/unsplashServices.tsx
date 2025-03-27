@@ -8,7 +8,6 @@ import { UnsplashImage } from "../types/unplashTypes";
 
 const UNSPLASH_BASE_URL = "https://api.unsplash.com";
 const UNSPLASH_ACCESS_KEY = import.meta.env.VITE_UNSPLASH_ACCESS_KEY as string;
-console.log("UNSPLASH_ACCESS_KEY", UNSPLASH_ACCESS_KEY);
 
 export const unsplashService = {
   searchImages: async ({
